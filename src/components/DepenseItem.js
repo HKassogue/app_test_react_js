@@ -1,5 +1,13 @@
 function DepenseItem() {
-    return <p>Depense Item!</p>
+    return (
+        <div>
+            <div>28 mars</div>
+            <div>
+                <h2>Assurance voiture</h2>
+                <div>290 $</div>
+            </div>
+        </div>
+    );
 }
 
 export default DepenseItem;
