@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Depenses from './components/Depenses'
+import Depenses from './components/expenses/Depenses'
 
 function App() {
   const depenses = [

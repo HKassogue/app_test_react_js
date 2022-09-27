@@ -1,4 +1,4 @@
-import Carte from './Carte';
+import Carte from '../ui/Carte';
 import DepenseDate from './DepenseDate';
 
 import './DepenseItem.css'
