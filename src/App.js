@@ -38,25 +38,25 @@ function App() {
         title = {depenses[0].title}
         amount = {depenses[0].amount}
         date = {depenses[0].date}
-      ></DepenseItem>
+      />
 
       <DepenseItem
         title = {depenses[1].title}
         amount = {depenses[1].amount}
         date = {depenses[1].date}
-      ></DepenseItem>
+      />
 
       <DepenseItem
         title = {depenses[2].title}
         amount = {depenses[2].amount}
         date = {depenses[2].date}
-      ></DepenseItem>
+      />
 
       <DepenseItem
         title = {depenses[3].title}
         amount = {depenses[3].amount}
         date = {depenses[3].date}
-      ></DepenseItem>
+      />
     </div>
   );
 }
