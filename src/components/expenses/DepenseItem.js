@@ -3,7 +3,7 @@ import DepenseDate from './DepenseDate';
 
 import './DepenseItem.css'
 
-function DepenseItem(props) {
+const DepenseItem = (props) => {
     
     return (
         <div className='depense-item'>
