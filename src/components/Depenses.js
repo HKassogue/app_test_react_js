@@ -3,7 +3,7 @@ import './Depenses.css'
 
 function Depenses(props) {
     return (
-        <div className='expenses'>
+        <div className='depenses'>
           <DepenseItem
             title = {props.depenses[0].title}
             amount = {props.depenses[0].amount}
@@ -30,3 +30,5 @@ function Depenses(props) {
         </div>
       );
 }
+
+export default Depenses;

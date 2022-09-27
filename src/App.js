@@ -1,5 +1,5 @@
 import './App.css';
-import DepenseItem from './components/DepenseItem';
+import Depenses from './components/Depenses'
 
 function App() {
   const depenses = [
@@ -34,29 +34,7 @@ function App() {
     <div>
       <h1>Cours React js</h1>
       <h2>Let's started!</h2>
-      <DepenseItem
-        title = {depenses[0].title}
-        amount = {depenses[0].amount}
-        date = {depenses[0].date}
-      />
-
-      <DepenseItem
-        title = {depenses[1].title}
-        amount = {depenses[1].amount}
-        date = {depenses[1].date}
-      />
-
-      <DepenseItem
-        title = {depenses[2].title}
-        amount = {depenses[2].amount}
-        date = {depenses[2].date}
-      />
-
-      <DepenseItem
-        title = {depenses[3].title}
-        amount = {depenses[3].amount}
-        date = {depenses[3].date}
-      />
+      <Depenses depenses={depenses} />
     </div>
   );
 }
