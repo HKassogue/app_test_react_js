@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './DepenseDate.css'
 
 const DepenseDate = (props) => {

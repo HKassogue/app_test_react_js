@@ -1,3 +1,4 @@
+import React from 'react';
 import './Carte.css'
 
 const Carte = () => {
@@ -6,6 +7,6 @@ const Carte = () => {
     return <div className='carte'>
 
     </div>
-}
+};
 
 export default Carte;

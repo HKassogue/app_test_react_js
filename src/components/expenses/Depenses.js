@@ -1,3 +1,4 @@
+import React from 'react';
 import DepenseItem from './DepenseItem';
 import './Depenses.css'
 
@@ -29,6 +30,6 @@ const Depenses = (props) => {
           />
         </div>
       );
-}
+};
 
 export default Depenses;
