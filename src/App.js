@@ -48,9 +48,13 @@ const App = () => {
     React.createElement(Depenses, {depenses: depenses})
   ); */
 
+  const addDepenseData = depense => {
+    depenses = [depense, ...depenses];
+  }
+
   return (
     <div>
-      <NewDepense />
+      <NewDepense onAddDepense={addDepenseData} />
       <Depenses depenses={depenses} />
     </div>
   );
